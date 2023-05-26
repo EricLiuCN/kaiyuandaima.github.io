@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0,  viewport-fit=cover" name="viewport" />
     <meta name="description" content="" />
     <link rel="alternate icon" type="image/webp" href="/img/logo.png">
-    <title>开源代码 | </title>
+    <title>开源代码 | 在开源世界里，参与比主导更重要</title>
 
     
         
@@ -39,7 +39,7 @@
                 <div class="shadow-drop-2-bottom paper-main">
                     
     <div class="index-header-line" >
-        <span>看过大海的人不会忘记海的广阔</span>
+        <span>在开源世界里，参与比主导更重要</span>
     </div>
 
 
@@ -112,6 +112,41 @@
     </div>
     
         
+    <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        以上。 
+    </div>
+        
+
+    <div id="waline"></div>
+    <script type="module"  >
+        import { init } from 'https://npm.elemecdn.com/hexo-theme-a4@latest/source/js/waline.mjs'; 
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://waline.kaiyuandaima.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+                search: false, // 禁止表情包搜索
+                reaction: false, // 对文章打分
+                pageview: false, // 浏览量统计
+                comment: false, // 评论数统计
+
+                locale: {
+                    placeholder: '正确的邮箱地址，回复将能得到邮件通知。', 
+                    sofa: ''
+                },
+            });
+            
+        }
+        window.addEventListener('DOMContentLoaded', loadWaline);
+    </script>
+
+
+    </div>
+
 
      
 </div>
@@ -154,11 +189,9 @@
 </div>
 <!--这是指一条线往下的内容-->
 <div class="footer-last">
+    <span>凡是过往 皆为序章</span>
     
-            <span>凡是过往 皆为序章</span>
-            
-                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
-            
+        <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
     
 </div>
 

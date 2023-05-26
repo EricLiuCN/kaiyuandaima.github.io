@@ -600,6 +600,12 @@ margin-left: 10px; /* 调整a标签和span之间的距离 */
     margin-right: 10px; /* 可以根据需要调整元素之间的间距 */
 }
 
+.archive .archive-date .date{
+    font-size: 20px;
+}
+
+
+
 .flex {
     display: flex;
 }
